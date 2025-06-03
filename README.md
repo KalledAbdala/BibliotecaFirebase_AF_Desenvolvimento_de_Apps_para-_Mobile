@@ -45,7 +45,7 @@ Este é um aplicativo mobile desenvolvido em **Java** com **Android Studio** e i
 
 Todos os diagramas estão disponíveis na pasta `docs/diagrams`.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Java
 - Android Studio
