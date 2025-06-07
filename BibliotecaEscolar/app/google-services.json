@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555154178376",
+    "project_id": "bibliotecaescolar-5e118",
+    "storage_bucket": "bibliotecaescolar-5e118.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555154178376:android:dccb4619ac23fcb412f37d",
+        "android_client_info": {
+          "package_name": "com.example.bibliotecaescolar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiKrBI0qP4eMeZ5zWOfLZUx13xoi-8y4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
