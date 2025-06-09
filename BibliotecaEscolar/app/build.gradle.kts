@@ -5,9 +5,6 @@ plugins {
     id("com.google.gms.google-services") // Firebase plugin
 }
 
-// Apply do plugin google-services no final do arquivo:
-apply(plugin = "com.google.gms.google-services")
-
 android {
     namespace = "com.example.bibliotecaescolar"
     compileSdk = 35
@@ -58,8 +55,10 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
-    implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
+    // ✅ Firebase BOM para unificar versões
+    implementation(enforcedPlatform("com.google.firebase:firebase-bom:33.15.0"))
     implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-database") // ✅ ESSENCIAL PARA O REALTIME DATABASE
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -69,3 +68,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
+
+apply(plugin = "com.google.gms.google-services")

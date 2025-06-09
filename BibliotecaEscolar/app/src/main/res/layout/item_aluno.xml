@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#EEEEEE">
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrícula: "
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtTurma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turma: "
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtLivroStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Livro emprestado: "
+        android:textSize="16sp"
+        android:textStyle="italic" />
+</LinearLayout>

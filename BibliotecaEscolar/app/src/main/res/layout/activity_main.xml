@@ -1,12 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:padding="24dp">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btnCadastrarLivro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Livro"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnCadastrarAluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Aluno"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnEmprestimo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emprestimo de Livro"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnDevolucao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Devolucao do Livro"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnHistorico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historico de Emprestimo"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnListaLivros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista de Livros"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnListaAlunos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista de Alunos"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
