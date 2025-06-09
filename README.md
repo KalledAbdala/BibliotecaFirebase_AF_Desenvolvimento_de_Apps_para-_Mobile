@@ -9,9 +9,6 @@ Este é um aplicativo mobile desenvolvido em **Java** com **Android Studio** e i
 - Autor
 - Gênero
 - Ano
-- Sinopse
-- Capa
-- Status: Disponível, Indisponível, Lendo
 - ID do aluno associado (quando "Lendo")
 - Datas: Empréstimo, Devolução prevista, Devolução real
 
@@ -19,9 +16,8 @@ Este é um aplicativo mobile desenvolvido em **Java** com **Android Studio** e i
 - Nome
 - Série
 - ID (gerado automaticamente)
-- Status de leitura (ID do livro emprestado, se houver)
 
- Listagem e filtros completos para:
+ Listagem:
 - Livros: por título, autor, gênero, ano e status
 - Alunos: por nome, série, ID e status de leitura
 
@@ -43,7 +39,7 @@ Este é um aplicativo mobile desenvolvido em **Java** com **Android Studio** e i
 -  Diagramas de Atividades
 -  Diagrama de Histórico
 
-Todos os diagramas estão disponíveis na pasta `docs/diagrams`.
+Todos os diagramas estão disponíveis no repositorio
 
 ## Tecnologias Utilizadas
 
